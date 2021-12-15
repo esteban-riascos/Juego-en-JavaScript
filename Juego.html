@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+  <!--Iconos para box-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="css/styles.css" rel = "stylesheet">
+    
+</head>
+<body>
+    <div class="login">
+        <img src="img/idle/1.png" id="monster" alt="">
+        <!-- <form class="formulario">
+            <label>Usuario</label>
+            <input type="text" id="i    nput-usuario" placeholder="esteban" autocomplete="off">
+            <label>Contraseña</label>
+            <input type="password" id="input-clave" placeholder="*******">
+            <button type="submit">Login</button>
+        </form> -->
+    </div>
+
+    </div>
+    <!--Boton de inicio-->
+    <div class="start_btn"><button>Jugar</button></div>
+
+    <!-- intrucciones del juego -->
+    <div class="instructions_box">
+        <div class="Info_title"><span>Instrucciones antes de jugar</span></div>
+        <div class= "info_list">
+            <div class="info">1. Tienes que responder un total de cinco preguntas de seleccion multiple</div>
+            <div class="info">2. Cuentas con <span> 15 segundos </span> para contestar cada pregunta, al final oprime el boton enviar </div>
+            <div class="info">3. En cualquier momento presiona salir para abandonar el juego </div>
+            <div class="info">4. Tu puntaje estará al final, ¡Mucha suerte!</div>  
+        </div>
+        <div class="buttons">
+            <button class="exit">Salir</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+    <!-- caja de preguntas -->
+    <div class="quiz_box">
+        <header>
+           <div class="title">Ahorcademia</div> 
+           <div class="tiempo">
+               <div class="texto_tiempo">Tiempo restante</div>
+               <div class="tiempo_seg">15</div> 
+           </div>
+           <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- <span> ¿Hola, soy la pregunta número 1?</span> -->
+            </div>
+            <div class="lista_respuesta">
+                <!-- <div class="opcion">
+                <span>Primer respuesta</span>
+                <div class="icon tick"><i class="fas fa-check"></i></div>
+            </div>
+            <div class="opcion">
+                <span>segunda respuesta</span>
+                <div class="icon cross"><i class="fas fa-times"></i></div>
+            </div>
+            <div class="opcion">
+                <span>tercera respuesta</span>
+            </div>
+            <div class="opcion">
+                <span>cuarta respuesta</span>
+            </div> -->
+            </div>
+        </section>
+        <!-- Q box_flooter -->
+        <footer>
+            <div class="total_que">
+                <!-- <span><p>2</p><p>de</p><p>5</p>preguntas</span> -->
+            </div>
+            <button class="next_btn">siguiente</button>
+        </footer>
+    </div>
+    <!-- box de resultado -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div>
+            <div class="complete_text">Has completado el juego</div>
+            <div class="score_text">
+                <!-- <span>Lo siento, solo tienes <p>2 respuestas </p> de <p>5</p></span> -->
+            </div>
+            <div class="buttons">
+                <button  class="restart">Repetir</button>
+                <button  class="exit">Salir</button>
+            </div>
+    </div>
+
+    <script src="js/script.js"></script>
+
+    <script src="js/preguntas.js"></script>
+
+    <script src = "javascript.js"></script>
+
+    
+</body>
+</html>
